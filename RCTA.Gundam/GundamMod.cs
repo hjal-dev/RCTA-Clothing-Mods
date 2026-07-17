@@ -8,7 +8,7 @@ namespace RCTA.Gundam;
 public record ModMetadata : AbstractModMetadata
 {
     public override string ModGuid { get; init; } = "com.rcta.gundam";
-    public override string Name { get; init; } = "RCTA - Gundam [CODMW3";
+    public override string Name { get; init; } = "RCTA - Gundam [CODMW3]";
     public override string Author { get; init; } = "TRAPPUSSY, Hj";
     public override List<string>? Contributors { get; init; }
     public override SemanticVersioning.Version Version { get; init; } = new("1.0.3");
