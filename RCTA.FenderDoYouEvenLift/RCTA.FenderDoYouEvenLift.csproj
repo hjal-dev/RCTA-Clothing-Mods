@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.20" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="3.0.3" />
   </ItemGroup>
 
 </Project>
